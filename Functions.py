@@ -58,7 +58,14 @@ print("Hello","World", sep="@", end="!!!\n")
 name = input("Enter your name: ")   # Taking input from the user and input() function return a string value which is stored in variable 'name'.
 num = int(input("Enter a number: "))    # Taking input from the user and converting it to an integer using int() function before storing it in variable 'num'.
 
-# 3. len() - 
+# 3. len() - used to measure the length of a string or list etc.
+string = "Python is one of the largest commumity and it is beginner-friendly language."
+length = len(string)
+print(length)
+
+listi = ["Apple", 12, 3.15, True]
+len_listi = len(listi)
+print(len_listi)
 
     
 
